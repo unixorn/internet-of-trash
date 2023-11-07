@@ -1,2 +1,18 @@
-# internet-of-trash
-A list of IOT devices that are garbage
+# Internet-of-Trash
+
+![Awesomebot](https://github.com/unixorn/internet-of-trash/actions/workflows/awesomebot.yml/badge.svg)
+
+A list of IOT devices to avoid.
+
+Some of the reasons things get listed here:
+
+- A device had an open API, then switched to requiring you to use their application instead of directly scraping the API
+- Devices which are cloud-only
+- Anything that requires you to use _their_ application and doesn't document their API
+
+
+| Device                                       | Reason it's garbage | Date       | Workarounds if any |
+| -------------------------------------------- | ------------------- | ---------- | ----------- |
+| Chamberlain MyQ Smart Garage Door Controller | Chamberlain shut off all access to its APIs. See their [Press Release](https://chamberlaingroup.com/press/a-message-about-our-decision-to-prevent-unauthorized-usage-of-myq) and The Verge's [coverage](https://www.theverge.com/23949612/chamberlain-myq-smart-garage-door-controller-homebridge-integrations) | 2023-11-07 ||
+| Mazda. Yes, Mazda. | The Home Assistant Blog has [details](https://www.home-assistant.io/blog/2023/10/13/removal-of-mazda-connected-services-integration/). TL;DR they sent a cease and desist order to the Mazda Home Assistant Integration's Author | |
+| Philips Hue | Philips is forcing users to "upgrade" to a version of their Philips app that requires login to a cloud account. See [How-To Geek](https://www.howtogeek.com/philips-hue-will-soon-require-online-accounts-to-control-lights/) | 2023-11-07 | Use a generic Zibgee coordinator instead of the Philips one |
