@@ -10,8 +10,6 @@ assignees: ''
 ## What list entry needs an update?
 
 
-
 ## What should we update?
 
 If the vendor has resolved the issue, please add a link to a press release / blog post / article confirming it. If there's a new workaround, describe that here (with links to instructions if possible).
-
