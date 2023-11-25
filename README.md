@@ -21,6 +21,11 @@ Some of the reasons things get listed here:
 
 ## Hall of Shame
 
+<!--
+Please keep entries to single lines - it makes sorting them much easier
+Please add new entries in alphabetical order - it will make things easier to find when the list gets larger
+-->
+
 | Device                                       | Reason it's garbage | Date       | Workarounds if any |
 | -------------------------------------------- | ------------------- | ---------- | ----------- |
 | Chamberlain MyQ Smart Garage Door Controller | Chamberlain shut off all access to its APIs.<br>See <ul><li>Chamberlain's [Press Release](https://chamberlaingroup.com/press/a-message-about-our-decision-to-prevent-unauthorized-usage-of-myq)</li><li>The Verge's [coverage](https://www.theverge.com/23949612/chamberlain-myq-smart-garage-door-controller-homebridge-integrations)</li></ul> | 2023-11-07 | Replace with a better solution:<ul><li>[opengarage.io](https://opengarage.io) - Their hardware design and software code (including both firmware and app code) and API documents are publicly available in the [OpenGarage github repository](https://github.com/OpenGarage)</li><li>[ratgdo](https://paulwieland.github.io/ratgdo/) is another solution with open source firmware that works with Security+ 2.0 openers.</li></ul> |

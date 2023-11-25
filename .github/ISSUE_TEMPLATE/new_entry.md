@@ -1,4 +1,4 @@
----
+--
 name: New Entry Submission
 about: Suggest an entry for the list
 title: "[NEW ENTRY]"
@@ -11,14 +11,14 @@ assignees: ''
 
 Name and shame time. Please include a link to the product/service.
 
-## Why is it bad?
+## Why is it trash?
 
-Please detail why it shouldn't be used. Possible issues include but are definitely not limited to:
+Please detail what earned it its trash status. Possible issues include but are definitely not limited to:
 
 - A product that previously had API access has been locked down to require you to use the vendor's crapware
 - A product that previously had a free API to control your devices is switching to paid subscription
 - A product that used to work in a local-only mode is being "upgraded" to require a cloud service or account to function
-- An API that was usable to provide integrations to projects like Home Assistant and Hubitat has been disabled or removed
+- An API that was usable to provide integrations to projects like [Home Assistant](https://home-assistant.io) and [Hubitat](https://hubitat.com) has been disabled or removed
 - Safety issues
 - Security issues.
 - Vendor has been actively hostile to developers using their API. Mazda sending a cease and desist letter to the Mazda integration author, for example.
