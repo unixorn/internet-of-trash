@@ -24,3 +24,11 @@
 - [ ] I included a description and/or links in the new entry's garbage column describing _why_ it is garbage.
 - [ ] All new and existing tests pass.
 - [ ] I have confirmed that the link(s) in my PR are valid.
+- [ ] I added my entries in alphabetical order
+- [ ] My entry is a single line. This makes it easier to keep the list sorted since we can use our editor's sort feature instead of having to manually move multi-line stanzas around.
+
+## Cosmetics
+
+Please keep the entries in alphabetical order. Once the list gets larger, that'll make it easier for people to find things.
+
+Make each entry a single line in the table. This lets me sort entries more easily since I can just use an editor's sort function instead of having to manually move entries around.
