@@ -6,7 +6,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
+- [Works With Home Assistant](#works-with-home-assistant)
 - [Hall of Shame](#hall-of-shame)
+- [Reformed](#reformed)
 - [Contributors](#contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
