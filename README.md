@@ -19,6 +19,12 @@ Some of the reasons things get listed here:
 - Devices which are cloud-only
 - Anything that requires you to use _their_ application and doesn't document their API so it can be integrated with other ecosystems
 
+## Works With Home Assistant
+
+Home Assistant has the [Works With Home Assistant](https://partner.home-assistant.io/) program that lists companies actively working with Home Assistant the developers to provide the best experience for HA users. I recommend checking the integrations list and choosing [partner brands](https://www.home-assistant.io/integrations/) to see the current list when buying new products.
+
+Support the vendors that support us.
+
 ## Hall of Shame
 
 <!--
