@@ -6,6 +6,8 @@ on:
     branches: [ '*' ]
   pull_request:
     branches: [ '*' ]
+  # Run daily
+  schedule: [{cron: "0 1 * * *"}]
 
 jobs:
   build:
