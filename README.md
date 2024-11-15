@@ -46,6 +46,7 @@ Please add new entries in alphabetical order - it will make things easier to fin
 | Mazda. Yes, Mazda. | The Home Assistant Blog has the [details](https://www.home-assistant.io/blog/2023/10/13/removal-of-mazda-connected-services-integration/).<br>TL;DR they sent a cease and desist order to the Mazda Home Assistant Integration's Author | |
 | Philips Hue | Philips is forcing users to "upgrade" to a version of their Philips app that requires login to a cloud account. See [How-To Geek](https://www.howtogeek.com/philips-hue-will-soon-require-online-accounts-to-control-lights/) | 2023-11-07 | Use a generic Zigbee coordinator instead of the Philips one |
 | Shark Vacuums | Shark has altered the API and broken the SharkIQ integration. See [sharkiq/issues/51](https://github.com/JeffResc/sharkiq/issues/51). This is an vendor problem, please don't harass the sharkiq maintainer. | 2024-11-14 | None |
+| Wyze Cameras | Wyze used to have a RTSP firmware which worked well (I have one) but then they abandoned it. | 2024-11-15 | [Thingino](https://thingino.com/) has some open source firmwares which may work. |
 
 ## Reformed
 
