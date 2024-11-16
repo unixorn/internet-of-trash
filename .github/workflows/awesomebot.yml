@@ -21,5 +21,6 @@ jobs:
         # within `mega-linter`
         fetch-depth: 0
     - uses: docker://dkhamsing/awesome_bot:latest
+    # We have to delay 1 second between url checks or we get rate-limited on some sites.
       with:
         args: /github/workspace/README.md --allow-ssl --allow 500,501,502,503,504,509,521 --allow-dupe --allow-redirect --request-delay 1 --white-list https://github,https://img.shields.io,https://reddit.com,https://www.reddit.com
