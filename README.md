@@ -54,6 +54,7 @@ Please add new entries in alphabetical order - it will make things easier to fin
 | Philips Hue | Philips is forcing users to "upgrade" to a version of their Philips app that requires login to a cloud account. See [How-To Geek](https://www.howtogeek.com/philips-hue-will-soon-require-online-accounts-to-control-lights/) | 2023-11-07 | Use a generic Zigbee coordinator instead of the Philips one |
 | RecTeq Smokers | Tuya based, but per [reddit](https://www.reddit.com/r/homeassistant/comments/1graane/comment/lx56e3x), they pushed an update that locked people out of their smokers | 2024-11-15 | None |
 | Shark Vacuums | Shark has altered the API and broken the SharkIQ integration. See [sharkiq/issues/51](https://github.com/JeffResc/sharkiq/issues/51). This is an vendor problem, please don't harass the sharkiq maintainer. | 2024-11-14 | None |
+| Tesla | [Charging for API access](https://developer.tesla.com/docs/fleet-api/billing-and-limits) | 2024-12-15 | |
 | Wyze Cameras | Wyze used to have a RTSP firmware which worked well (I have one) but then they abandoned it. | 2024-11-15 | [Thingino](https://thingino.com/) has some open source firmwares which may work. Additionally, the [wz_mini_hacks](https://github.com/gtxaspec/wz_mini_hacks) firmware works well with many of their cameras. |
 
 ## Reformed
