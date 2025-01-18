@@ -1,4 +1,4 @@
---
+---
 name: New Entry Submission
 about: Suggest an entry for the list
 title: "[NEW ENTRY]"
