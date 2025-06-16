@@ -29,6 +29,6 @@
 
 ## Cosmetics
 
-Please keep the entries in alphabetical order. Once the list gets larger, that'll make it easier for people to find things.
+Please keep the entries in alphabetical order. As the list gets larger, this makes it easier for people to find things.
 
 Make each entry a single line in the table. This lets me sort entries more easily since I can just use an editor's sort function instead of having to manually move entries around.
