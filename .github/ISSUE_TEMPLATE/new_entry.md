@@ -27,6 +27,6 @@ If there are articles / blog posts / press releases describing why it's bad, ple
 
 ## Is there a workaround?
 
-If there's a workaround (like attaching Hue bulbs to a non-Philips zigbee controller), include that here. If there are other products that can replace it, please include links. In the interest of keeping entries short, we prioritize links to products like opengarage.io that publish their firmware, especially if it has an open source license.
+If there's a workaround (like attaching Hue bulbs to a non-Philips zigbee controller), include that here. If there are other products that can replace it, please include links. In the interest of keeping entries short, we prioritize links to products like opengarage.io that publish their firmware, especially if a product has an open source license.
 
 Finally, thanks for the help - the IOT ecosystem gets larger every day and one person can't keep up on everything.
