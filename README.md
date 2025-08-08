@@ -30,8 +30,11 @@ Support the vendors that support us.
 ## Hall of Shame
 
 <!--
-Please keep entries to single lines - it makes sorting them much easier
-Please add new entries in alphabetical order - it will make things easier to find when the list gets larger
+Please keep entries to single lines - it keeps table entries from being
+corrupted when I sort the table alphabetically.
+
+Please add new entries in alphabetical order - it will make things easier
+to find when the list gets larger
 -->
 
 | Device                                       | Reason it's garbage | Date       | Workarounds if any |
@@ -45,6 +48,7 @@ Please add new entries in alphabetical order - it will make things easier to fin
 | Arlo Cameras | Per [reddit](https://www.reddit.com/r/homeassistant/comments/1graane/comment/lx4jo79), actively blocks attempts to access them. Uses rolling short-lived tokens to make it even more annoying to integrate. | 2024-11-15 | None |
 | Astral Pool Halo Chlorinator | Per [DanielNagy/astralpool_halo_chlorinator](https://github.com/DanielNagy/astralpool_halo_chlorinator) and [community.home-assistant.io](https://community.home-assistant.io/t/viron-astral-pool-chlorinatorgo-integration/375495/408), firmware versions newer than 2.3 | 2024-11-16 | None |
 | Blink Cameras | Per reddit [thread](https://www.reddit.com/r/homeassistant/comments/1graane/comment/lx4kbmd), randomly marks videos as seen in their app when connected to HA. | 2024-11-15 | None. |
+| BMW | Announced that they are going to limit API access to BMW Connected Drive to specific electrical providers. Details are in home assistant core [issue 149750](https://github.com/home-assistant/core/issues/149750). | 2025-08-08 | None |
 | Ecobee thermostats | "As of March 28th, 2024, ecobee is no longer accepting new developer subscriptions, nor are existing developer accounts able to create new API keys. There is no ETA for when they will be allowed again. Existing API keys will continue to function." | 2024-11-15 | Their HomeKit integration still works, so your HA can connect via that. It's less robust than a real connection, though. |
 | Eight Sleep Beds | Locked part of the API behind a paywall. | 2024-11-15 | Lucas Clarke's [integration](https://github.com/lukas-clarke/eight_sleep). Subject to breakage if they change their API again.  |
 | Eufy cameras | Per [reddit](https://www.reddit.com/r/homeassistant/comments/1graane/comment/lx4jo79), the community integration is hit or miss due to flakiness on the Eufy side. Disables RTSP if you don't let it phone home for more than 48 hours. Requires disabling a bunch of security stuff to access the RTSP stream even when it _does_ work. | 2024-11-15 | None |
