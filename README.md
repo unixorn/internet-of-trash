@@ -29,6 +29,7 @@ Support the vendors that support us.
 
 ## Hall of Shame
 
+Some products work poorly if at all with Home Assistant. I've listed the ones I know about here, but would love to get PRs or issues adding more.
 <!--
 Please keep entries to single lines - it keeps table entries from being
 corrupted when I sort the table alphabetically.
@@ -50,7 +51,7 @@ to find when the list gets larger
 | Astral Pool Halo Chlorinator | Per [DanielNagy/astralpool_halo_chlorinator](https://github.com/DanielNagy/astralpool_halo_chlorinator) and [community.home-assistant.io](https://community.home-assistant.io/t/viron-astral-pool-chlorinatorgo-integration/375495/408), firmware versions newer than 2.3 | 2024-11-16 | None |
 | Blink Cameras | Per reddit [thread](https://www.reddit.com/r/homeassistant/comments/1graane/comment/lx4kbmd), randomly marks videos as seen in their app when connected to HA. | 2024-11-15 | None. |
 | BMW | BMW turned off all 3rd party access to their APIs. See details in home assistant core [issue 149750](https://github.com/home-assistant/core/issues/149750) and on reddit at [bmw_kills_home_assistant_integration_to_protect](https://www.reddit.com/r/homeassistant/comments/1n8tidg/bmw_kills_home_assistant_integration_to_protect/) |  2025-09-10 | |
-| Ecobee thermostats | "As of March 28th, 2024, ecobee is no longer accepting new developer subscriptions, nor are existing developer accounts able to create new API keys. There is no ETA for when they will be allowed again. Existing API keys will continue to function." | 2024-11-15 | Their HomeKit integration still works, so your HA can connect via that. It's less robust than a real connection, though. |
+| Ecobee thermostats | "As of March 28th, 2024, ecobee is no longer accepting new developer subscriptions, nor are existing developer accounts able to create new API keys. There is no ETA for when they will be allowed again. Existing API keys will continue to function." | 2024-11-15 | Their HomeKit integration still works, so your HA can connect via that. It's less robust than a direct connection, though. |
 | Eight Sleep Beds | Locked part of the API behind a paywall. | 2024-11-15 | Lucas Clarke's [integration](https://github.com/lukas-clarke/eight_sleep). Subject to breakage if they change their API again. |
 | Eufy cameras | Per [reddit](https://www.reddit.com/r/homeassistant/comments/1graane/comment/lx4jo79), the community integration is hit or miss due to flakiness on the Eufy side. Disables RTSP if you don't let it phone home for more than 48 hours. Requires disabling a bunch of security stuff to access the RTSP stream even when it _does_ work. | 2024-11-15 | None |
 | GM OnStar | GM changes or voids API keys, which makes it really hard for the integration developers to keep up. | 2024-11-15 | [OnStar JS](https://github.com/samrum/OnStarJS) is an unofficial NodeJS library to make OnStar requests. Instability is because the devs have to chase GM changes. |
